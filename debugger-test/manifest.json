@@ -1,0 +1,9 @@
+{
+  "manifest_version": 3,
+  "name": "YouTube Skip Debugger Test",
+  "version": "0.1.0",
+  "description": "Manually test one debugger-generated click on YouTube's visible Skip button.",
+  "permissions": ["activeTab", "scripting", "debugger"],
+  "background": {"service_worker": "background.js"},
+  "action": {"default_title": "Test YouTube Skip once"}
+}
